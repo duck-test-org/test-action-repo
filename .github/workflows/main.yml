@@ -3,10 +3,10 @@ on: [push]
 jobs:
   hello_world_job:
     runs-on: ubuntu-latest
-    name: A job to say hello
+    name: A job to say Salaam
     steps:
-      - name: Hello world action step
-        id: hello
+      - name: Salaam world action step
+        id: Salaam
         uses: actions/hello-world-docker-action@v1
         with:
           who-to-greet: 'Mona the Octocat'
