@@ -9,7 +9,7 @@ jobs:
         id: salaam
         uses: duck-test-org/test-create-new-action@v1
         with:
-          who-to-greet: 'Mona the Octocat'
+          who-to-greet: 'Pop'
       # Use the output from the `hello` step
       - name: Get the output time
         run: echo "The time was ${{ steps.salaam.outputs.time }}"
