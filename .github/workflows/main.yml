@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Salaam world action step
         id: salaam
-        uses: actions/hello-world-docker-action@v1
+        uses: actions/test-create-new-action@v1
         with:
           who-to-greet: 'Mona the Octocat'
       # Use the output from the `hello` step
